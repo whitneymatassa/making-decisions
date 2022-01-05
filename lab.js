@@ -5,20 +5,35 @@
   If it is true, console log "I love to code!"
   If it is not, console log "Coding has its challenges."
 */
+let lovesCode = 20
 
+if(lovesCode === 20){
+  console.log('I love to code!')
+}
+else{
+  console.log ('Coding has its challenges.')
+}
 //CODE HERE
 
+
 // For problems 2-3 use the following lines of code:
-var amysAge = 29
-var brittanisAge = 34
-var amysBirthYear = 1991
-var brittanisBirthYear = 1986
 
 ////////// PROBLEM 2 //////////
 
 /*
   Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
 */
+let amysAge = 29
+let brittanisAge = 3
+
+
+if(amysAge > brittanisAge){
+  console.log('Amy is older.')
+} else if(brittanisAge > amysAge){
+  console.log('Brittani is older.')
+} else{
+  console.log('They are the same age.')
+}
 
 //CODE HERE
 
@@ -28,7 +43,14 @@ var brittanisBirthYear = 1986
 /*
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
+let amysBirthYear = 1991
+let brittanisBirthYear = 1986
 
+if(amysBirthYear === brittanisBirthYear){
+  console.log('Amy & Brittani were born in the same year')
+}else{
+  console.log('Amy & Brittani were not born in the same year')
+}
 //CODE HERE
 
 
